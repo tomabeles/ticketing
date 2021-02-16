@@ -1,0 +1,14 @@
+skaffold dev
+
+kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v0.43.0/deploy/static/provider/cloud/deploy.yaml
+
+kubectl create secret generic jwt-secret --from-literal=JWT_KEY=asdf
+kubectl create secret generic stripe-secret --from-literal=STRIPE_KEY=sk_test_YsuqFeMvO3sp0JyFKz1HzFv5
+
+chrome: thisisunsafe
+
+kubectl port-forward nats-depl-66974858f4-l7wd9 4222:4222
+
+
+
+sk_test_YsuqFeMvO3sp0JyFKz1HzFv5
