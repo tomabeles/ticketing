@@ -1,6 +1,6 @@
 name: tests-payments
 
-on: 
+on:
   pull_request:
     paths:
       - "payments/**"
