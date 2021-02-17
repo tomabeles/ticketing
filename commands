@@ -9,6 +9,8 @@ chrome: thisisunsafe
 
 kubectl port-forward nats-depl-66974858f4-l7wd9 4222:4222
 
+kubectl config use-context docker-desktop
+kubectl config use-context do-sfo3-ticketing
 
 
 sk_test_YsuqFeMvO3sp0JyFKz1HzFv5
